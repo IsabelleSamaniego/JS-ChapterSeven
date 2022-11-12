@@ -26,6 +26,7 @@ function countdown() {
 
     // 5. declare now variable
     var now = new Date();
+    document.getElementById("currentTime").innerHTML = now.toLocaleString();
 
     // 6. apply toLocaleString() to now variable
     now.toLocaleString(currentTime);
